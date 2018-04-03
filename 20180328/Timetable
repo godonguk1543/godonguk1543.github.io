@@ -1,0 +1,119 @@
+<!DOCTYPE html> <!-- time.html-->
+<html lang="ko">
+<head>
+  <meta charset="utf-8"/>
+  <meta name="viewport" content="width=device-width,initial-scale=1"/> 
+  <style>
+    subject1{background-color:lightblue;}
+    subject2{background-color:orange;}
+    subject3{background-color:gray;}
+    subject4{background-color:lightgreen;}
+    subject5{background-color:indianred;}
+    subject6{background-color:black; color:white;}
+    subject7{background-color:yellow;}
+  </style> 
+  <title>HTML5 시간표 만들기</title>
+</head>
+<body>
+<h1>고동욱 시간표</h1>
+<table width = "700" height="600" border="1">
+  <thead>
+    <tr>
+      <td></td>
+      <td>월</td>
+      <td>화</td>
+      <td>수</td>
+      <td>목</td>
+    </tr>
+  </thead>
+<tbody>
+  <tr>
+    <td>
+     <b>1교시</b>
+    </td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+  </tr>
+<tr>
+  <td>
+     <b>2교시</b>
+  </td>
+  <td></td>
+  <td></td>
+  <td></td>
+  <td></td>
+</tr>
+<tr>
+  <td>
+    <b>3교시</b>
+  </td>
+  <td class="subject2" rowspan="2">
+    <center>디지털 논리회로</center>
+  </td>
+  <td></td>
+  <td class="subject1" rowspan="2">
+    <center>자료구조 및 실습</center>
+  </td>
+  <td class="subject1" rowspan="2">
+    <center>자료구조 및 실습</center>
+  </td>
+</tr>
+<tr>
+  <td>
+    <b>4교시</b>
+  </td>
+  <td></td>
+</tr>
+<tr>
+  <td>
+    <b>5교시</b>
+  </td>
+  <td class="subject7" rowspan="2">
+    <center>대학 일본어3</center>
+  </td>
+  <td class="subject2">
+    <center>디지털 논리회로</center>
+  </td>
+  <td></td>
+  <td class="subject3" rowspan="2">
+    <center>인터넷 프로그래밍</center>
+  </td>
+</tr>
+<tr>
+  <td>
+    <b>6교시</b>
+  </td>
+  <td class="subject4" rowspan="4">
+    <center>C++프로그래밍</center>
+  </td>
+  <td></td>
+</tr>
+<tr>
+  <td>
+    <b>7교시</b>
+  </td>
+  <td></td>
+  <td></td>
+  <td class="subject5" rowspan="2">
+    <center>캠퍼스 멘토링</center>
+  </td>
+<tr>
+  <td>
+    <b>8교시</b>
+  </td>
+  <td class="subject3" rowspan="2">
+    <center>인터넷 프로그래밍</center>
+  </td>
+</tr>
+<tr>
+  <td>
+   <b>9교시</b>
+  <td></td>
+</tr>
+</tbody>
+</table>
+<hr />
+</body>
+</html>
